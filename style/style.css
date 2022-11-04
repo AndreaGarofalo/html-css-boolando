@@ -23,6 +23,10 @@ a {
     color: white;
 }
 
+h3 {
+    text-transform: uppercase;
+}
+
 /* utility */
 
 .border {
