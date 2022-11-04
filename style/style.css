@@ -44,6 +44,7 @@ header {
     min-height: 60px;
     align-items: center;
     box-shadow: 0 0 5px black;
+    z-index: 2;
 }
 
 .header-logo{
@@ -91,13 +92,26 @@ header {
 
 .collection {
     flex-basis: calc(100% / 3);
-    min-height: 150px;
     background-color: #ff6900;
+    position: relative;
 }
 
 .model-a {
     height: 100%;
     width: 100%;
+}
+
+.model-b {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+.collection:hover .model-b{
+    display: block;
 }
 
 /* footer */
