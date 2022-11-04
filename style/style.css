@@ -84,6 +84,20 @@ header {
 
 /* main */
 
+.row {
+    padding: 50px 0;
+    gap: 20px;
+} 
 
+.collection {
+    flex-basis: calc(100% / 3);
+    min-height: 150px;
+    background-color: #ff6900;
+}
+
+.model-a {
+    height: 100%;
+    width: 100%;
+}
 
 /* footer */
