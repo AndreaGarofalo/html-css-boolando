@@ -45,6 +45,14 @@ h3 {
     text-decoration: line-through;
 }
 
+.red-bg {
+    background-color: #f00;
+}
+
+.green-bg {
+    background-color: #008000;
+}
+
 /* header */
 
 header {
@@ -137,6 +145,17 @@ header {
 
 .fa-heart:hover {
     color: #f00;
+}
+
+.tags {
+    color: #fff;
+    padding: 3px 6px;
+}
+
+.discount-class {
+    position: absolute;
+    bottom: 30px;
+    left: 0;
 }
 
 /* footer */
