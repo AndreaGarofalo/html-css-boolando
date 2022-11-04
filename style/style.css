@@ -102,7 +102,7 @@ header {
     gap: 20px;
 } 
 
-.collection {
+.card {
     flex-basis: calc(100% / 3);
     background-color: #ff6900;
     position: relative;
@@ -124,6 +124,15 @@ header {
 
 .collection:hover .model-b{
     display: block;
+}
+
+.favourite {
+    background-color: #fff;
+    padding: 10px;
+    position: absolute;
+    top: 10px;
+    right: 0;
+    font-size: 20px;
 }
 
 /* footer */
