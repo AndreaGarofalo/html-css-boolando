@@ -122,7 +122,7 @@ header {
     display: none;
 }
 
-.collection:hover .model-b{
+.card:hover .model-b{
     display: block;
 }
 
@@ -133,6 +133,10 @@ header {
     top: 10px;
     right: 0;
     font-size: 20px;
+}
+
+.fa-heart:hover {
+    color: #f00;
 }
 
 /* footer */
