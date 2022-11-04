@@ -33,6 +33,14 @@ a {
     display: flex;
 }
 
+.red-text {
+    color: #f00;
+}
+
+.line-throught {
+    text-decoration: line-through;
+}
+
 /* header */
 
 header {
