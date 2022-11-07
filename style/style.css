@@ -113,7 +113,6 @@ header {
 .card {
     flex-basis: calc(100% / 3);
     background-color: #ff6900;
-    position: relative;
 }
 
 .model-a {
@@ -124,14 +123,14 @@ header {
 .model-b {
     height: 100%;
     width: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
     display: none;
 }
 
 .card:hover .model-b{
     display: block;
+}
+.card:hover .model-a{
+    display: none;
 }
 
 .favourite {
